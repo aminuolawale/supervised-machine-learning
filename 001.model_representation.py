@@ -7,7 +7,6 @@ from typing import List
 def model_function(x: float, weight: float, bias: float) -> float:
     return weight * x + bias
 
-
 def compute_model_output(input_data:List[float], weight: float, bias: float) -> List[float]:
     return [weight * input_data_point + bias for input_data_point in input_data]
 
